@@ -3,6 +3,8 @@
 node {
   stage ('Checkout') {
     checkout scm
+    
+    
   }
 
   stage('Check Env Parameters'){
